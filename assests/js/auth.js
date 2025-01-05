@@ -14,7 +14,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
     localStorage.setItem('isLoggedIn', 'true');
     alert('Login successful!');
     // Redirect to the homepage
-    window.location.href = "index.html";
+    window.location.href = "home.html";
   } else {
     // Show error message
     document.getElementById('error-message').style.display = "block";
